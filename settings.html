@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>הגדרות</title>
+  <link rel="stylesheet" href="settings.css">
+  <script src="settings.js" defer></script>
+</head>
+<body>
+  <div class="settings-container">
+    <h1>הגדרות משתמש</h1>
+
+    <!-- שינוי שם משתמש -->
+    <label for="username">שם משתמש:</label>
+    <input type="text" id="username" placeholder="הכנס שם חדש">
+
+    <!-- בחירת צבעי עיצוב -->
+    <label for="theme-color">בחר צבע רקע:</label>
+    <input type="color" id="theme-color">
+
+    <!-- מצב כהה -->
+    <label>מצב כהה:</label>
+    <input type="checkbox" id="dark-mode">
+
+    <!-- הגדרת תזכורות -->
+    <label for="reminder-time">תזכורת למשימות:</label>
+    <input type="time" id="reminder-time">
+
+    <!-- הגבלת משימות יומיות -->
+    <label for="task-limit">מספר משימות מקסימלי:</label>
+    <input type="number" id="task-limit" min="1" max="5">
+
+    <!-- כפתור שמירת ההגדרות -->
+    <button id="save-settings">שמור הגדרות</button>
+
+    <!-- מחיקת כל הנתונים -->
+    <button id="reset-data" class="danger">איפוס כל הנתונים</button>
+
+    <!-- חזרה לדף הבית -->
+    <button onclick="location.href='home.html'" class="back-btn">חזרה לדף הבית</button>
+  </div>
+</body>
+</html>

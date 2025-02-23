@@ -1,0 +1,73 @@
+/* עיצוב כללי לעמוד בחירת משימה */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Tahoma', sans-serif;
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .task-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  
+  .tasks-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .task-btn {
+    background-color: #6c5ce7;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s, opacity 0.3s;
+    min-width: 180px;
+  }
+  
+  .task-btn:hover {
+    background-color: #341f97;
+    transform: scale(1.05);
+  }
+  
+  /* כפתור חזרה לדף הבית */
+  .back-container {
+    margin-top: 30px;
+  }
+  
+  .back-btn {
+    background-color: #2d3436;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .back-btn:hover {
+    background-color: #636e72;
+    transform: translateY(-2px);
+  }
+  

@@ -1,0 +1,83 @@
+/* רקע עם טקסטורה שמזכירה סגנון של פעם אך מודרני */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif;
+    background: #f8f0e0;
+    background-image: url('https://www.transparenttextures.com/patterns/old-map.png');
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* קונטיינר ראשי עם עיצוב מודרני ונגיעה קלאסית */
+  .performance-container {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px 40px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
+  }
+  
+  /* כותרת */
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* טבלת ביצוע המשימות */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  table th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* עיצוב הכפתורים */
+  .action-btn, .back-btn {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    margin: 5px;
+  }
+  
+  .action-btn {
+    background-color: #e67e22;
+    color: #fff;
+  }
+  
+  .action-btn:hover {
+    background-color: #d35400;
+    transform: scale(1.05);
+  }
+  
+  .back-btn {
+    background-color: #2980b9;
+    color: #fff;
+  }
+  
+  .back-btn:hover {
+    background-color: #2471a3;
+    transform: scale(1.05);
+  }
+  
